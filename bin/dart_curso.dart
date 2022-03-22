@@ -28,13 +28,30 @@ mostrarMadura(String nome, int dias, {required String cor}) {
     print("A $nome não está madura.");
   }
 
-  if (cor != null) {
-    print("A $nome é $cor.");
-  }
+  print("A $nome é $cor.");
 }
 
 int funcQuantosDiasMadura(int dias) {
   int diasParaMadura = 30;
   int quantosDiasFaltam = diasParaMadura - dias;
   return quantosDiasFaltam;
+}
+
+class Fruta {
+  String nome;
+  double peso;
+  String cor;
+  String sabor;
+  int diasDesdeColheita;
+  bool? isMadura;
+
+  Fruta(this.nome, this.peso, this.cor, this.sabor, this.diasDesdeColheita,
+      {this.isMadura});
+
+  void estaMadura(int diasParaMadura) {
+    isMadura = diasDesdeColheita >= diasParaMadura;
+    print('A sua $nome foi colhida a $diasDesdeColheita dias e precisa de'
+        ' $diasParaMadura dias para poder comer!'
+        'Ela está Madura? $isMadura');
+  }
 }
