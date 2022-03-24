@@ -10,7 +10,7 @@ O código de Dart: Orientação a Objetos  são **Funções** para resolver prob
 **Veja mais de perto o que você aprenderá sobre** :
 - **Funções:** Técnica para isolar um trecho de código com o objetivo de reutilizá-lo.
 - `class`: Como criar uma classe e definir suas propriedades, construtores e métodos.
-- `extends`: Como extender uma classe para herdar suas propriedades e métodos.
+- `extends`: Como estender uma classe para herdar suas propriedades e métodos.
 - `abstract`: Como criar uma classe abstrata para que contém métodos abstratos que serão usados pelas classes que a implementarem.
 - `implements`: Como implementar uma classe abstrata em uma classe concreta.
 
@@ -24,6 +24,6 @@ O código de Dart: Orientação a Objetos  são **Funções** para resolver prob
 
 ## 📚 Mais informações do curso
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
+Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](TODO) que desenvolve o projeto desde o começo!
 
-Esse curso faz parte da [formação de Dart da Alura]()
+Esse curso faz parte da [formação de Dart da Alura](TODO)
