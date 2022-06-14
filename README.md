@@ -26,4 +26,4 @@ O código de Dart: Orientação a Objetos  são **Funções** para resolver prob
 
 Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](TODO) que desenvolve o projeto desde o começo!
 
-Esse curso faz parte da [formação de Dart da Alura](TODO)
+Esse curso faz parte da [formação de Dart da Alura](https://cursos.alura.com.br/formacao-dart)
